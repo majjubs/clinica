@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="agencon.css">
+</head>
+<body>
+    <form method="post" action="salvar.jsp">
+    <header>
+        <ul>
+            <li>Agendamento <a href="index.html">HOME</a></li>
+        </ul>
+        
+         <a href="login.html" class="botao-adm">ADM</a>
+    </header>
+
+    <main>
+        <div class="pequena-tela">
+            <form action="#" method="post">
+                <div class="nome">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="email">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="numero">
+                    <label for="numero">Número celular:</label>
+                    <input type="tel" id="numero" name="numero" required>
+                </div>
+
+                <div class="tratamento">
+                    <label for="tratamento">Tratamentos:</label>
+                    <select id="tratamento" name="tratamento" required>
+                        <option value="" disabled selected>Tratamento desejado</option>
+                        <option value="implante">Implante</option>
+                        <option value="clareamento">Clareamento Dental</option>
+                        <option value="faceta">Faceta</option>
+                        <option value="checkup">Check-up</option>
+                        <option value="bruxismo">Bruxismo</option>
+                        <option value="invisalign">Invisalign</option>
+                        <option value="cirurgia">Cirurgia</option>
+                        <option value="aparelho">Aparelho</option>
+                    </select>
+                </div>
+
+                <div class="convenio">
+                    <label for="convenio">Convênios:</label>
+                    <select id="convenio" name="convenio" required>
+                        <option value="" disabled selected>Convênios disponíveis</option>
+                        <option value="amil">Amil Dental</option>
+                        <option value="brazil">Brazil Dental</option>
+                        <option value="sul">SulAmérica</option>
+                        <option value="odonto">OdontoPrev</option>
+                        <option value="prima">PrimaVida Dental</option>
+                        <option value="met">MetLife</option>
+                        <option value="unimed">Unimed Fesp</option>
+                        <option value="notre">NotreDame</option>
+                        <option value="bradesco">Bradesco Saúde</option>
+                        <option value="hap">Hapvida</option>
+                        <option value="inter">InterOdonto</option>
+                        <option value="inpao">INPÃO Dental</option>
+                        <option value="bio">BioVida</option>
+                        <option value="porto">Porto Seguro</option>
+                        <option value="ameplan">Ameplan Saúde</option>
+                        <option value="cristovao">São Cristóvão</option>
+                        <option value="med">Med-Tour</option>
+                    </select>
+                </div>
+
+                <div class="dia">
+                    <label for="dia">Dia:</label>
+                    <select id="dia" name="dia" required>
+                        <option value="" disabled>Dia</option>
+                        <script>
+                            for (let i = 1; i <= 31; i++) {
+                                document.write(`<option value="${i}">${i}</option>`);
+                            }
+                        </script>
+                    </select>
+                </div>
+
+                <div class="mes">
+                    <label for="mes">Mês:</label>
+                    <select id="mes" name="mes" onchange="verificarMesAno()" required>
+                        <option value="" disabled selected>Mês</option>
+                        <option value="1">Janeiro</option>
+                        <option value="2">Fevereiro</option>
+                        <option value="3">Março</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Maio</option>
+                        <option value="6">Junho</option>
+                        <option value="7">Julho</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Setembro</option>
+                        <option value="10">Outubro</option>
+                        <option value="11">Novembro</option>
+                        <option value="12">Dezembro</option>
+                    </select>
+                </div>
+
+                <div class="ano">
+                    <label for="ano">Ano:</label>
+                    <select id="ano" name="ano" required>
+                        <option value="" disabled>Ano</option>
+                        <script>
+                            for (let i = 2024; i <= 2025; i++) {
+                                document.write(`<option value="${i}">${i}</option>`);
+                            }
+                        </script>
+                    </select>
+                </div>
+
+                <div class="horario">
+                    <label for="horario">Horário:</label>
+                    <select id="horario" name="horario" onchange="verificarHorario()" required>
+                        <option value="" disabled selected>Horário</option>
+                        <script>
+                            for (let h = 7; h <= 18; h++) {
+                                for (let m = 0; m < 60; m += 30) {
+                                    let horaFormatada = h < 10 ? `0${h}` : h;
+                                    let minutoFormatado = m < 10 ? `0${m}` : m;
+                                    document.write(`<option value="${horaFormatada}:${minutoFormatado}">${horaFormatada}:${minutoFormatado}</option>`);
+                                }
+                            }
+                        </script>
+                    </select>
+                </div>
+
+                <div class="button">
+                    <button type="submit">Confirmar</button>
+                </div>
+            </form>
+
+            <div class="tela-2">
+                <p>OBSERVAÇÕES:<br><br>
+                    <strong>ATENÇÃO: ACEITAMOS SOMENTE OS CONVÊNIOS DISPONÍVEIS NA PÁGINA DE AGENDAMENTO!</strong><br><br>
+                    <strong>Confirmar Dados:</strong> Ao preencher seus dados, verifique se todas as informações estão corretas, como nome, e-mail, número de celular, o tratamento desejado e a data.<br><br>
+                    <strong>Horários Disponíveis:</strong> Escolha um horário que seja conveniente para você. Lembre-se de que, em caso de imprevistos, o agendamento pode ser remarcado com antecedência, de acordo com a disponibilidade da agenda via WhatsApp e telefone disponíveis na página de contato.<br><br>
+                    <strong>Cancelamento ou Alteração:</strong> Se não puder comparecer à consulta, solicitamos que avise com pelo menos 24 horas de antecedência via WhatsApp ou telefone, para que possamos remanejar o horário para outro paciente.<br><br>
+                    <strong>Documentação Necessária:</strong> Para alguns procedimentos, pode ser necessário levar RG, CPF, exames ou documentos médicos. Em caso de menores de idade, compareça com o responsável e, dependendo da consulta, traga um acompanhante. Se for o seu caso, certifique-se de levar tudo o que foi solicitado para a consulta.<br><br>
+                    <strong>Atrasos e Prazos:</strong> Pedimos que chegue ao local com antecedência de 10 a 15 minutos para evitar o atraso no seu atendimento. Consultas agendadas podem ser remarcadas caso o atraso seja superior a 15 minutos.<br><br>
+                    <strong>Contato Pós-Consulta:</strong> Após o atendimento, você pode ser contatado para um retorno ou acompanhamento. Fique atento aos canais de comunicação para garantir a continuidade do tratamento.<br><br>
+                    Essas informações garantem que seu atendimento seja o mais eficiente possível e ajudam a manter a nossa agenda organizada, proporcionando uma experiência positiva para todos.</p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Array para armazenar agendamentos feitos
+        let agendamentos = [];
+
+        function verificarHorario() {
+            const dia = document.getElementById("dia").value;
+            const mes = document.getElementById("mes").value;
+            const ano = document.getElementById("ano").value;
+            const horario = document.getElementById("horario").value;
+
+            // Formar a chave única para o agendamento
+            const chaveAgendamento = `${ano}-${mes}-${dia} ${horario}`;
+
+            // Verificar se o horário já foi ocupado
+            if (agendamentos.includes(chaveAgendamento)) {
+                alert("Este horário já foi agendado. Por favor, escolha outro horário.");
+                document.getElementById("horario").value = ""; // Limpar a seleção
+            } else {
+                // Adicionar o novo agendamento ao array
+                agendamentos.push(chaveAgendamento);
+            }
+        }
+
+        // Função para ajustar o ano conforme o mês selecionado
+        function verificarMesAno() {
+            const mesSelecionado = document.getElementById('mes').value;
+            const anoSelect = document.getElementById('ano');
+
+            while (anoSelect.options.length > 1) {
+                anoSelect.remove(1);
+            }
+
+            if (mesSelecionado < 12) {
+                anoSelect.innerHTML += '<option value="2025">2025</option>';
+            } else {
+                for (let i = 2024; i <= 2025; i++) {
+                    anoSelect.innerHTML += `<option value="${i}">${i}</option>`;
+                }
+            }
+        }
+    </script>
+</body>
+</html>

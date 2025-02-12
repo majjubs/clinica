@@ -1,0 +1,782 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Koh+Santepheap:wght@100;300;400;700;900&family=Konkhmer+Sleokchher&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+body {
+  background-color: #bdbdbd81;
+}
+
+/* Estilos do cabeçalho */
+header {
+  margin-top: -1.1%;
+  margin-right: -0.4%;
+  margin-left: -8%;
+  font-size: 60px;
+  top: -50px;
+  background-color: #373c3c00;
+}
+
+.ul-header {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  margin-top: -60px;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+li {
+  font-size: 4rem;
+  color: #fff;
+  margin-left: 8%;
+  margin-top: -3%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header {
+  margin-top: -1.5%;
+  width: 108.4%;
+  height: 5.5rem;
+  background-color: #00000091;
+  margin-right: 8%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-left: 76%;
+}
+
+/* Estilo do formulário */
+.nome, .email, .numero, .tratamento, .convenios {
+  font-size: 2rem;
+}
+
+input[type="text"], input[type="email"], select {
+  font-size: 1.25rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 2%;
+  padding: 10px;
+}
+
+input[type="text"] {
+  width: 60%;
+}
+
+input[type="email"] {
+  width: 65%;
+}
+
+select {
+  width: 350px;
+  font-size: 1.25rem;
+  padding: 10px;
+}
+
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha em telas pequenas */
+  gap: 2%; /* Espaço entre os campos */
+}
+
+.formulario > div {
+  flex: 1;
+  min-width: 200px; /* Ajusta a largura mínima dos campos */
+  font-size: 1.5rem;
+}
+
+.pequena-tela {
+  width: 30rem;
+  padding: 20px;
+  height: auto;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 5rem;
+}
+
+.pequena-tela h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+button {
+  width: 170px;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 1.25rem;
+  color: black;
+  background-color: #bebebe4a;
+  border: none;
+  margin-left: 120%;
+  margin-top: -5%;
+}
+
+.tela-2 {
+  width: 30rem;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 2%;
+  font-size: 100%;
+}
+
+p {
+  margin-top: -60%;
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+/* Media Queries para Responsividade */
+
+/* Para telas pequenas (celulares) */
+@media (max-width: 480px) {
+  header {
+    font-size: 2rem;
+    margin-left: -10px;
+    margin-top: -30px;
+    height: 48px;
+  }
+
+  .ul-header {
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 5px;
+  }
+
+  li {
+        font-size: 19px;
+        text-align: center;
+        margin-left: -27px;
+        padding: 10px;
+  }
+
+  .pequena-tela, .tela-2 {
+    width: 81%;
+    padding: 15px;
+    margin-left: 5%;
+    margin-top: 2rem;
+  }
+
+  .nome, .email, .tratamento, .convenios {
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .numerocelular {
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .dia, .mes, .ano {
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  input[type="text"], input[type="email"], select {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  a {
+        font-size: 14px;
+        margin-left: 41%;
+    }
+  }
+/* Para telas médias (tablets) */
+@media (min-width: 800px) and (max-width: 1500px) {
+  header {
+    font-size: 2.5rem;
+    margin-left: -8px;
+    margin-top: -35px;
+  }
+  .numero{
+    margin-left: -156px;
+    font-size: 30px;
+  }
+
+  .ul-header {
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 5px;
+  }
+  li {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-left: 2%;
+        padding: 15px;
+    
+  }
+
+  .pequena-tela, .tela-2 {
+    width: 80%;
+    padding: 20px;
+    margin-left: 7%;
+    margin-top: 3rem;
+  }
+
+ label[for="nome"] {
+ 
+ margin-left: -152px;
+}
+
+  
+  input[type="text"]{
+         width: 380px;
+        margin-left: 6px;
+        margin-top: -83px;
+  }
+  label[for="email"]  { 
+    font-size: 31px;
+   margin-left: -146px;
+  }
+  
+  input[type="email"]{
+      width: 379px;
+  }
+  
+  input[type="number"]{
+        width: 279px;
+        margin-left: 11px;
+        height: 30px;
+        margin-top: 21px;
+  }
+
+  .tratamento, .convenios{
+      margin-left: -155px;
+  }
+
+  .numerocelular {
+    font-size: 2.0rem;
+    margin-left: 0;
+  }
+  
+  .horario{
+      font-size: 27px;
+        margin-left: -223px;
+  }
+  
+
+
+  .dia, .mes, .ano {
+    font-size: 2.0rem;
+    margin-left: -250px
+  }
+  
+  button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  a {
+    font-size: 20px;
+        margin-left: 56%;
+        margin-right: 97px;
+  }
+
+  /* Estilo para os ícones com numeração */
+  #Tratamentos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Ajuste de layout para 4 ícones por linha */
+    gap: 20px;
+    justify-items: center; /* Centraliza os ícones */
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 55px;
+  }
+
+  #Tratamentos > p {
+    font-size: 30px; /* Ajuste do tamanho do texto */
+    height: 50px;
+    font-family: Krub;
+    text-align: center;
+    background-color: #D5B98C;
+    border-radius: 50%; /* Tornar o texto circular */
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  /* Ícones 1 a 8 */
+  .icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #F0F0F0;
+    position: relative;
+  }
+
+  .icone img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icone p {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o número no ícone */
+  }
+
+  /* Ajustes gerais para os ícones */
+  .icone-1, .icone-2, .icone-3, .icone-4, .icone-5, .icone-6, .icone-7, .icone-8 {
+    margin: 10px;
+    position: relative;
+  }
+}
+
+
+/* Para telas computador (desktops) */
+@media (min-width: 1024px) {
+  header {
+    font-size: 3rem;
+  }
+
+  .ul-header {
+    justify-content: flex-end;
+    margin-top: -60px;
+  }
+
+  li {
+    font-size: 4rem;
+    color: #fff;
+    margin-left: 8%;
+    margin-top: -3%;
+  }
+
+  .pequena-tela, .tela-2 {
+    width: 61rem;
+    margin-left: 25%;
+    margin-top: 5rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin-top: 60px;
+    width: 1500px;
+  }
+  
+  #nome {
+      width: 640px;
+  }
+  label[for="nome"]{
+      margin-left: 10px;
+    
+  }
+  
+  label[for="numero"] {
+      margin-left: -360px;
+      transform: translateY(100px);
+  }
+  
+  label[for="tratamentos"] {
+      margin-left: -500px;
+  }
+ 
+  button {
+      margin-left: 600px
+  }
+      
+  
+}
+
+
+
+
+/* Tela notebook (1024x768) */
+@media (min-width: 1266px) {
+    .pequena-tela, .tela-2 {
+          width: 69%;
+        margin-left: 14%;
+    }
+    
+
+
+#nome {
+    width: 33%;
+}
+
+
+.numero {
+    margin-left: 16%;
+        font-size: 31px;
+    }
+
+ 
+ 
+ label[for="nome"] {
+     margin-left: -140px;
+    }
+    
+    
+    label[for="numero"] {
+        margin-left: -34%;
+    }
+    
+    
+    .convenios {
+        font-size: 36px;
+    }
+    
+    
+    button {
+        margin-left: 70%;
+    }
+    
+    li {
+        font-size: 50px;
+        margin-left: -8%;
+    }
+    
+    a {
+        font-size: 29px;
+        margin-left: 61%;
+    }
+    
+ }
+ 
+ /*Computador*/
+ @media (min-width: 1400px) {
+     li {
+         margin-left: 10%;
+         font-size: 50px;
+         padding: 1%;
+     }
+     
+     a {
+         margin-left: 75%;
+     }
+     
+     input[type="number"] {
+         width: 31%;
+         height: 35px;
+        
+     }
+     .numero {
+         margin-left: 25%;
+         margin-top: 20px;
+     }
+     
+     input[type="email"] {
+         width: 30%;
+     }
+     
+     label[for="nome"] {
+         margin-left: 1px;
+     }
+     #nome {
+         width: 30.1%;
+     }
+     
+     #horario {
+         width: 25%;
+     }
+    
+ }
+ 
+ 
+/* Para telas muito grandes (computadores maiores) */
+@media (min-width: 900px) and (max-width: 1280px) {
+  header {
+    font-size: 4rem;
+    margin-top: -60px;
+  }
+
+  .ul-header {
+    gap: 20px;
+  }
+
+  li {
+    font-size: 42px;
+    margin-left: -2%;
+  }
+  
+  .nome {
+      margin-left: -26%;
+  }
+
+  .pequena-tela {
+        width: 61em;
+        margin-left: 12%;
+        margin-top: 4rem;
+        height: 576px !important;
+    }
+  
+  
+  .tela-2 {
+      margin-left: -3%;
+    margin-top: 4%;
+    width: 101%;
+  }
+  
+  .email{
+      margin-left: -25%;
+    margin-top: 2%;
+
+  }
+  
+  #email {
+      width: 33%;
+  }
+  
+  .tratamento {
+      font-size: 25px;
+    margin-left: -52%;
+    margin-top: 3%;
+  }
+  
+  #tratamento {
+      width: 18%;
+
+  }
+  
+  .convenio{
+     margin-left: 51%;
+    font-size: 25px;
+    margin-top: -6%;
+
+}
+  
+#convenio{
+    width: 52%;
+
+}
+
+.dia {
+    font-size: 24px;
+    margin-top: 3%;
+    margin-left: -57%;
+}
+
+#dia {
+    width: 10%;
+}
+
+.mes {
+    font-size: 27px;
+    margin-left: -57%;
+    margin-top: 2%;
+}
+
+#mes {
+    width: 10%;
+}
+  
+.ano {
+    margin-left: 46%;
+    margin-top: -16%;
+    font-size: 27px;
+}
+
+#ano {
+    width: 28%;
+}
+  
+.horario {
+    margin-left: 46%;
+    font-size: 22px;
+    margin-top: 5%;
+}
+
+#horario {
+    width: 26%;
+}
+  
+  #numero {
+          height: 30px;
+    width: 30%;
+
+  }
+
+  button {
+    width: 138px;
+    height: 65px;
+    font-size: 1.5rem;
+    margin-left: 86%;
+    margin-top: -1%;
+
+  }
+
+  p {
+        font-size: 24px;
+    width: 97%;
+  }
+
+  .numero{
+  margin-left: -5%;
+    margin-top: 51px;
+    font-size: 30px;
+  }
+  
+  .botao-adm {
+     padding-top: 2% !important;
+  } 
+  
+        
+  }
+
+@media (min-width: 1921px) {
+    .pequena-tela { 
+        width: 74%;
+        margin-left: 12%;
+        height: 833px !important;
+    }
+    
+    .tela-2 {
+       margin-left: 306%; 
+       margin-left: -1%;
+        width: 99.6%;
+        margin-top: 130px;
+        height: 911px;
+    }
+    p {
+        margin-top: 2%;
+        font-size: 29px;
+    }
+    
+    button{
+        margin-left: 87%;
+        width: 13%;
+        margin-top: -1%;
+    }
+    
+    label {
+      margin-left: -28%;
+    }
+    
+    .email {
+        margin-left: 3%;
+        width: 92%;
+        margin-top: 5%;
+    }
+    
+    .numero {
+        margin-top: 7%;
+    }
+    
+    #numero {
+        height: 37px;
+        width: 53%;
+    }
+    
+    .tratamento {
+        margin-top: 4%;
+        margin-left: -25%;
+    
+    }
+    
+    .convenio {
+        margin-left: 58%;
+        margin-top: -4%;
+        font-size: 33px;
+    }
+    
+    
+    .dia {
+        margin-top: 3%;
+        margin-left: -23%;
+        font-size: 28px;
+    }
+    
+    #dia {
+        width: 14%;
+    }
+    
+    .ano {
+        margin-left: 57%;
+        margin-top: -163px;
+        font-size: 31px;
+    }
+    
+    #ano {
+       width: 41%;
+    }
+    
+    .mes {
+        margin-left: -23%;
+        margin-top: 2%;
+        font-size: 31px;
+    }
+    
+    #mes {
+        width: 13%;
+    }
+    
+    .horario {
+        margin-left: 57%;
+        font-size: 28px;
+        margin-top: 3.1%;
+    }
+    
+    #horario {
+                width: 37%;
+    }
+    
+    header {
+        margin-top: -3.2%;
+       
+    }
+    
+    li {
+        font-size: 53px;
+        padding: 0.3%;
+    }
+    
+    a {
+       
+        font-size: 26px;
+        padding: 18%;
+        position: relative;
+        top: -57px;
+    }
+    }
+    .botao-adm {
+        position: relative;
+    top: 2119%;
+    margin-left: 71%;
+    font-size: 15px;
+    }

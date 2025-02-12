@@ -1,0 +1,123 @@
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: 50%;
+  
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo da tabela */
+table {
+    width: 85%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Células de dados */
+td {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Cor do hover nas células */
+tr:hover td {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+/* Estilo da coluna de ações */
+.icon {
+    width: 30px;
+    height: 30px;
+    /* Ou qualquer tamanho adequado */
+}
+
+/* Efeito de hover nos ícones */
+.icon:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+h1{
+    color: black;
+    margin-left: 40%;
+   
+  
+}
+
+header{
+    background-color: #9c9898;
+}
+
+/* Estilo de uma linha alternada (listrada) para as células */
+tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+
+
+@media  (min-width: 360px) and (max-width: 800px){
+    table {
+        width: 100%;
+        margin: 30px 10px;
+    }
+
+    th, td {
+        font-size: 200%;
+        padding: 2% 2%;
+    }
+
+    .icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    table {
+        width: 95%;
+  height: auto;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+    }
+
+    h1{
+        color: black;
+        margin-left: 39%;
+     font-size: 300%;
+    }
+    
+    a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+    font-size: 200%;
+}
+}

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Konkhmer+Sleokchher&family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+body{
+    background-color: #9c9898;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: -25%;
+    
+  }
+  
+  .imagem {
+    margin: 10px;
+    width: 30%;
+  }
+  
+  .imagem img {
+    width: 100%;
+    height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+ 
+    
+  }
+
+  .imagem p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000006c;
+  padding: 20px;
+  width: 571px;
+  height: 100px;
+  margin-top: -7px;
+  color: #ffff;
+  font-family: 'Instrument Sans';
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 40px;
+  
+  }
+
+  .imagem:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho quando passa o mouse */
+}
+/*celular redonod0*/
+@media (max-width: 375px) and (min-width:360px)  {
+ .imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: -76%;
+    height: 100vh;
+}
+
+.imagem {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  margin-bottom: -411px;
+  margin-left: auto;
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+  margin-top: 100px;
+}
+
+.imagem p {
+  background-color: #0000006c;
+  padding: 10%;
+  width: 100%;
+  margin-top: -5%;
+  color: #ffff;
+  font-family: 'Instrument Sans';
+  border-radius: 0 0 20px 20px;
+  font-size: 15px;
+  height: 9vh;
+}
+ }
+ 
+ @media (max-width: 428px) and (min-width: 390px){
+      
+ .imagens {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+        margin-top: -223%;
+        height: 100vh;
+}
+
+.imagem {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  margin-bottom: -411px;
+  margin-left: auto;
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+  margin-top: 100px;
+}
+
+.imagem p {
+  background-color: #0000006c;
+  padding: 10%;
+  width: 100%;
+  margin-top: -5%;
+  color: #ffff;
+  font-family: 'Instrument Sans';
+  border-radius: 0 0 20px 20px;
+  font-size: 15px;
+  height: 9vh;
+}
+ }
+ 
+ /* tablet*/
+ @media (max-width: 834px) and (min-width: 820px){
+     .imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+     margin-top: -64%;
+    height:17vh;
+}
+
+.imagem {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  margin-bottom: -411px;
+  margin-left: auto;
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+  margin-top: 100px;
+}
+
+.imagem p {
+        background-color: #0000006c;
+        padding: 10%;
+        width: 100%;
+        margin-top: -5%;
+        color: #ffff;
+        font-family: 'Instrument Sans';
+        border-radius: 0 0 20px 20px;
+        font-size: 33px;
+        height: 11vh;
+        margin-top: -1px;
+}
+ }
+ 
+ 
+@media (min-width:420px) and (max-width:926px) {
+
+  .imagem img {
+    width: 100%;
+    height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-top: -20%;
+  }
+}
+
+
+ /* Tela notebook  */
+  @media screen and (min-width: 1200px) and (max-width: 1500px) {
+    .imagens {
+        margin-top: -50%;
+        width: 97% !important;
+        margin-left: 2% !important;
+     }
+     
+     .imagem p {
+         width: 368px;
+     }
+    
+ }
+
+ 
+    /*Computador*/
+    @media (min-width: 1400px) {
+        imagens {
+            width: 71% !important ;
+        }
+        
+        .imagem p {
+         width: 455px;
+    }
+    }
+    
+    @media (min-width: 1266px) and (max-width: 1320){
+        imagens{
+            margin-top: -5%;
+        }
+    }
+    
+    
+    @media (width: 1920px) {
+        imagens {
+            margin-top: -29%;
+        }
+        
+        .imagem p {
+            width: 100%;
+        }
+        
+        
+}
+
+@media (width: 427px) {
+    imagens {
+        margin-top: -190%;
+    }
+}
+
+
+
+
+
+
+
+    
+     
+      
+
+

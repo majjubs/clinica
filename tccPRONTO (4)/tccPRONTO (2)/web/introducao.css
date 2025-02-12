@@ -1,0 +1,146 @@
+/* Tela padrão */
+.introducao h1{ 
+    color: white; 
+    position: relative; 
+    top: -900px; 
+    margin-left: 45%; 
+    font-size: 60px; 
+  }
+  
+  .introducao p{ 
+    color: white; 
+    position: relative; 
+    top: -900px; 
+    margin-left: 45%; 
+    font-size: 60px; 
+  }
+  
+  .introducao h2{ 
+    color: white; 
+    position: relative; 
+    top: -1120px; 
+    margin-left: 60%; 
+    font-size: 60px; 
+  }
+  
+  /* Tela notebook (1366x768) */
+  @media (max-width: 1366px) {
+      .introducao {
+         height:  1px;
+          
+      }
+    .introducao h1{ 
+      top: -430px; 
+      margin-left: 40%; 
+      font-size: 50px; 
+    }
+    
+    .introducao p{ 
+      top: -700px; 
+      margin-left: 40%; 
+      font-size: 50px; 
+    }
+    
+    .introducao h2{ 
+     top: -879px;
+        margin-left: 57%;
+        font-size: 50px;
+    }
+  }
+  
+  /* Tela notebook (1024x768) */
+  @media screen and (min-width: 1200px) and (max-width: 1500px) {
+    .introducao h1{ 
+      top: -600px; 
+      margin-left: 35%; 
+      font-size: 45px; 
+    }
+    
+    .introducao p{ 
+      top: -600px; 
+      margin-left: 35%; 
+      font-size: 45px; 
+    }
+    
+    .introducao h2{ 
+      top: -710px; 
+      margin-left: 52%; 
+      font-size: 45px; 
+    }
+  }
+  
+  /* celular */
+  @media (max-width: 375px) and (min-width:360px){
+      .introducao h1{
+          font-size: 14px;
+        margin-left: 124px;
+        margin-top: 235px;
+        height: auto;
+      }
+      
+      .introducao p{
+           font-size: 17px;
+        margin-left: 122px;
+        margin-top: 269px;
+        width: 285px;
+      }
+      .introducao h2{
+        font-size: 16px;
+        margin-top: 118px;
+        margin-left: 204px;
+      }
+  }
+  
+  /* celular mais largo*/
+  @media (max-width: 428px) and (min-width: 390px) {
+      .introducao h1{
+         font-size: 14px;
+        margin-left: 124px;
+        margin-top: 235px;
+        height: auto;
+      }
+      
+      .introducao p{
+         font-size: 17px;
+        margin-left: 122px;
+        margin-top: 269px;
+        width: 285px;
+      }
+      .introducao h2{
+       font-size: 16px;
+        margin-top: 118px;
+        margin-left: 204px;
+      }
+  
+  }
+  
+  /* tablet*/
+  @media (max-width: 834px) and (min-width: 820px){
+       .introducao h1{
+        font-size: 31px;
+        margin-left: 449px;
+        margin-top: -5%;
+        height: auto;
+      }
+      
+      .introducao p{
+         font-size: 47px;
+        margin-left: 450px;
+        margin-top: 260px;
+        width: 494px;
+    }
+      
+      .introducao h2{
+       font-size: 40px;
+        margin-top: -4px;
+        margin-left: 537px;
+      }
+
+  }
+  
+ 
+      
+  
+ 
+
+    

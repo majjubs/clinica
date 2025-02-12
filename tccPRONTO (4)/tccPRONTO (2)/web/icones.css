@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Koh+Santepheap:wght@100;300;400;700;900&family=Konkhmer+Sleokchher&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Kumbh+Sans:wght@100..900&display=swap');
+
+#Tratamentos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 55px;
+  height: 1000px;
+  
+}
+
+#Tratamentos > p {
+  font-size: 70px;
+  top: 100px ;
+  height: 100px;
+  font-family: Krub;
+  padding: 10px;
+  text-align: center;
+}
+
+#Tratamentos > p {
+  background-color: #D5B98C;
+  border-radius: 200px;
+  margin-top: -1px;
+}
+
+
+.icone-1 img{
+ margin-top: 160px;
+ margin-left: -500px;
+ width: 180px;
+height: 180px;
+}
+
+
+
+.icone-1 > p{
+  font-size: 70px;
+  margin-left: -260px;
+  margin-top: -145px;
+}
+
+.icone-2 img{
+  width: 250px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: -40%;
+}
+
+.icone-2 > p{
+  font-size: 70px;
+   margin-top: -180px;
+  }
+
+  .icone-3 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 170%;
+    margin-top: 90px;
+  }
+
+  .icone-3 > p{
+    font-size: 70px;
+    margin-left: 206%;
+    margin-top: -150px;
+  }
+
+  .icone-4 img {
+    width: 250px;
+    height: 250px;
+    margin-left: -500px;
+    margin-top: 100px;
+  
+    
+  }
+  .icone-4 > p{
+    font-size: 70px;
+    margin-top: -160px;
+    margin-left: -220px;                                                                                       
+  }
+  
+#Tratamentosprofundos {
+  padding: 100px;
+  background-color: #ffffff;
+  margin-top: 2px;
+  height: 1000px;
+ 
+
+}
+  #Tratamentosprofundos > p {
+    background-color: #D5B98C;
+    border-radius: 200px;
+    margin-top: -80px;  
+    margin-left: -80px;
+  }
+
+  #Tratamentosprofundos > p { 
+    font-size: 70px;
+    height: 100px;
+    font-family: Krub;
+    text-align: center;
+    width: 50%;
+  }
+
+  .icone-5 img{
+    margin-top:30px;
+    margin-left: 80px;
+    width: 200px;
+   height: 200px;
+  }
+
+  .icone-5 > p{
+    font-size: 70px;
+    margin-left: 300px;
+    margin-top: -110px;
+    background-color: #fff ;
+  }
+
+.icone-6 img{
+  margin-top: -200px;
+  margin-left: 890px;
+  width: 260px;
+  height: 260px;
+}
+
+.icone-6 > p{
+  font-size: 70px;
+  margin-left: 1170px;
+  margin-top: -172px;
+}
+
+.icone-7 img{
+  width: 200px;
+  height: 200px;
+  margin-left: 54%;
+  margin-top: 300px;
+}
+
+.icone-7 > p{
+  font-size: 70px;
+  margin-left: 1150px;
+  margin-top: -112px;
+}
+
+.icone-8 img{
+  width: 190px;
+  height: 190px;
+  margin-left: 4%;
+  margin-top: -150px;
+  
+}
+
+.icone-8 > p{
+  font-size: 70px;
+  margin-left: 300px;
+  margin-top: -140px;
+}
+
+/* celular */
+@media (min-width: 360px) and (max-width: 375px) {
+  #Tratamentos {
+    height: 836px;
+    margin-top: 76px;
+  }
+ 
+  #Tratamentos > p {
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    margin-top: 100px;
+  }
+
+  .icone-1 img{
+    margin-top: 180px;
+    margin-left: -311px;
+    width: 100px;
+   }
+
+  .icone-1 > p{
+    font-size: 24px;
+    margin-left: -310px;
+    margin-top: -20px;
+  }
+  
+  .icone-2 img{
+    width: 130px;
+    height: 250px;
+    margin-top: 130px;
+    margin-left: -160px;
+  }
+  
+  .icone-2 > p{
+    font-size: 22px;
+     margin-top: -46px;
+     margin-left: -156px;
+    }
+  
+    .icone-3 img{
+      width: 100px;
+      margin-left: 210px;
+      margin-top: -5px;
+    }
+  
+    .icone-3 > p{
+      font-size: 24px;
+      margin-left: 69%;
+      margin-top: -30px;
+    }
+  
+    .icone-4 img {
+      width: 130px;
+      margin-left: -320px;
+      margin-top: -36px;
+    
+      
+    }
+    .icone-4 > p{
+      font-size: 24px;
+      margin-top: -50px;
+      margin-left: -310px;                                                                                       
+    }
+     
+
+  #Tratamentosprofundos {
+    height: 863px; /* altura após redução */
+    margin-top: 3px; /* ou padding-top: 20px */
+
+}
+
+  #Tratamentosprofundos > p { 
+      width: 243px;
+      height: 50px;
+      font-size: 17px;
+      margin-top: 4px;
+      padding: 12px;
+  }
+
+
+.icone-5 img {
+    width: 100px;
+    margin-top: 7px;
+    margin-left: -67px;
+}
+
+.icone-5 > p {
+    font-size: 24px;
+    margin-left: -70px;
+    margin-top: -30px;
+}
+
+.icone-6 img {
+    width: 150px;
+    transform: translateY(-12%);
+    margin-left: 100px;
+}
+
+.icone-6 > p {
+    font-size: 24px;
+    margin-left: 120px;
+    transform: translateY(256%);
+}
+
+.icone-7 img {
+width: 100px;
+margin-left: 71%;
+transform: translateY(-219px);
+}
+
+.icone-7 > p {
+font-size: 25px;
+margin-left: 125px;
+transform: translateY(-128px);
+}
+
+.icone-8 img {
+width: 100px;
+margin-left: -37%;
+transform: translateY(-177px);
+}
+.icone-8 > p {
+font-size: 25px;
+margin-left: -70px;
+transform: translateY(-65px);
+} 
+
+ }
+ 
+   /* celular mais largo*/
+   @media (max-width: 428px) and (min-width: 390px) {
+        #Tratamentos {
+    height: 836px;
+    margin-top: 76px;
+  }
+ 
+  #Tratamentos > p {
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    margin-top: 100px;
+  }
+
+  .icone-1 img{
+    margin-top: 180px;
+    margin-left: -311px;
+    width: 100px;
+   }
+
+  .icone-1 > p{
+    font-size: 24px;
+    margin-left: -310px;
+    margin-top: -20px;
+  }
+  
+  .icone-2 img{
+    width: 130px;
+    height: 250px;
+    margin-top: 130px;
+    margin-left: -160px;
+  }
+  
+  .icone-2 > p{
+    font-size: 22px;
+     margin-top: -46px;
+     margin-left: -156px;
+    }
+  
+    .icone-3 img{
+      width: 100px;
+      margin-left: 210px;
+      margin-top: -5px;
+    }
+  
+    .icone-3 > p{
+      font-size: 24px;
+      margin-left: 69%;
+      margin-top: -30px;
+    }
+  
+    .icone-4 img {
+      width: 130px;
+      margin-left: -320px;
+      margin-top: -36px;
+    
+      
+    }
+    .icone-4 > p{
+      font-size: 24px;
+      margin-top: -50px;
+      margin-left: -310px;                                                                                       
+    }
+     
+
+  #Tratamentosprofundos {
+    height: 863px; /* altura após redução */
+    margin-top: 3px; /* ou padding-top: 20px */
+
+}
+
+  #Tratamentosprofundos > p { 
+      width: 243px;
+      height: 50px;
+      font-size: 17px;
+      margin-top: 4px;
+      padding: 12px;
+  }
+
+
+.icone-5 img {
+    width: 100px;
+    margin-top: 7px;
+    margin-left: -67px;
+}
+
+.icone-5 > p {
+    font-size: 24px;
+    margin-left: -70px;
+    margin-top: -30px;
+}
+
+.icone-6 img {
+    width: 150px;
+    transform: translateY(-12%);
+    margin-left: 118px;
+}
+
+.icone-6 > p {
+    font-size: 24px;
+    margin-left: 143px;
+    transform: translateY(256%);
+}
+
+.icone-7 img {
+width: 100px;
+margin-left: 71%;
+transform: translateY(-219px);
+}
+
+.icone-7 > p {
+font-size: 25px;
+margin-left: 142px;
+transform: translateY(-128px);
+}
+
+.icone-8 img {
+width: 100px;
+margin-left: -37%;
+transform: translateY(-177px);
+}
+.icone-8 > p {
+font-size: 25px;
+margin-left: -70px;
+transform: translateY(-65px);
+} 
+
+ }
+ 
+ /* tablet*/
+ @media (max-width: 834px) and (min-width: 820px){
+   #Tratamentos {
+    height: 1433px;
+    margin-top: 76px;
+  }
+ 
+  #Tratamentos > p {
+        width: 325px;
+        height: 66px;
+        font-size: 31px;
+        margin-top: 149px;
+  }
+
+  .icone-1 img{
+        margin-top: 366px;
+        margin-left: -798px;
+        width: 148px;
+   }
+
+  .icone-1 > p{
+       font-size: 36px;
+        margin-left: -626px;
+        margin-top: -129px; 
+  }
+  
+  .icone-2 img{
+       width: 175px;
+        height: 250px;
+        margin-top: 325px;
+        margin-left: -452px;
+    }
+  
+  
+  .icone-2 > p{
+           font-size: 34px;
+        margin-left: -257px;
+        margin-top: -133px;
+    }
+  
+    .icone-3 img{
+        width: 145px;
+        margin-left: 470px;
+        margin-top: 158px;
+    }
+  
+    .icone-3 > p{
+        width: 148px;
+        margin-left: 650px;
+        margin-top: -124px;
+        font-size: 45px;
+    }
+  
+    .icone-4 img {
+               width: 183px;
+        margin-left: -797px;
+        margin-top: 136px;
+    }
+    .icone-4 > p{
+       font-size: 33px;
+        margin-top: -150px;
+        margin-left: -580px;                                                                                  
+    }
+     
+
+  #Tratamentosprofundos {
+    height: 1376px; /* altura após redução */
+    margin-top: 3px; /* ou padding-top: 20px */
+
+}
+
+  #Tratamentosprofundos > p { 
+      width: 243px;
+      height: 50px;
+      font-size: 17px;
+      margin-top: 4px;
+      padding: 12px;
+  }
+
+
+.icone-5 img {
+        margin-top: 155px;
+        margin-left: -49px;
+        width: 148px;
+}
+
+.icone-5 > p {
+        font-size: 36px;
+        margin-left: 144px;
+        margin-top: -126px;
+}
+
+.icone-6 img {
+        width: 193px;
+        transform: translateY(22%);
+        margin-left: 398px
+}
+
+.icone-6 > p {
+        font-size: 35px;
+        margin-left: 634px;
+        transform: translateY(189%);
+    }
+
+
+.icone-7 img {
+        width: 124px;
+        margin-left: 51%;
+        transform: translateY(66px);
+}
+
+     .icone-7 > p {
+        font-size: 34px;
+        margin-left: 639px;
+        transform: translateY(75px);
+        }
+
+.icone-8 img {
+        width: 126px;
+        margin-left: -5%;
+        transform: translateY(112px);
+    }
+
+.icone-8 > p {
+        font-size: 33px;
+        margin-left: 153px;
+        transform: translateY(128px); 
+    }
+} 
+
+
+   
+
+
+/* Responsividade para notebooks  */
+@media (min-width: 1024px) and (max-width: 1920px) {
+  #Tratamentos {
+    grid-template-columns: repeat(3, 1fr); /* Mantém 3 colunas para telas médias */
+  }
+
+  #Tratamentos > p {
+    font-size: 60px; /* Ajusta o tamanho da fonte para telas médias */
+    width: 500px;
+    margin-top: 80px;
+  }
+
+  .icone-1 img {
+    margin-top: 300px;
+    margin-left: -480px;
+    width: 160px;
+    height: 160px;
+  }
+
+  .icone-1 > p {
+    font-size: 60px;
+    margin-left: -240px;
+    margin-top: -130px;
+  }
+
+  .icone-2 img {
+    width: 220px;
+    height: 220px;
+    margin-top: 260px;
+    margin-left: -60%;
+  }
+
+  .icone-2 > p {
+    font-size: 60px;
+    margin-top: -160px;
+  }
+
+  .icone-3 img {
+    width: 170px;
+    height: 200px;
+    margin-left: 145%;
+    margin-top: 70px;
+  }
+
+  .icone-3 > p {
+    font-size: 60px;
+    margin-left: 183%;
+    margin-top: -130px;
+  }
+
+  .icone-4 img {
+    width: 200px;
+    height: 230px;
+    margin-left: -500px;
+    margin-top: 70px;
+  }
+
+  .icone-4 > p {
+    font-size: 55px;
+    margin-top: -140px;
+    margin-left: -230px;
+  }
+
+  #Tratamentosprofundos {
+    padding: 80px;
+    background-color: #ffffff;
+    margin-top: 2px;
+    height: 1000px;
+  }
+
+  #Tratamentosprofundos > p {
+    font-size: 60px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: -70px;
+    text-align: center;
+  }
+
+  .icone-5 img {
+    margin-top: 70px;
+    margin-left: -10px;
+    width: 160px;
+    height: 180px;
+  }
+
+  .icone-5 > p {
+    font-size: 60px;
+    margin-left: 200px;
+    margin-top: -100px;
+  }
+
+  .icone-6 img {
+    margin-top: -150px;
+    margin-left: 630px;
+    width: 230px;
+    height: 220px;
+  }
+
+  .icone-6 > p {
+    font-size: 60px;
+    margin-left: 880px;
+    margin-top: -160px;
+  }
+
+  .icone-7 img {
+    width: 180px;
+    height: 180px;
+    margin-left: 57%;
+    margin-top: 250px;
+  }
+
+  .icone-7 > p {
+    font-size: 60px;
+    margin-left: 850px;
+    margin-top: -90px;
+  }
+
+  .icone-8 img {
+    width: 150px;
+    height: 170px;
+    margin-left: -1%;
+    margin-top: -150px;
+  }
+
+  .icone-8 > p {
+    font-size: 60px;
+    margin-left: 200px;
+    margin-top: -130px;
+  }
+}
+
+@media (min-width: 1920px) {
+    .icone-7 img {
+        margin-left: 38%;
+    }
+    
+    .icone-7 > p {
+            
+        margin-left: 49%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    #tratamentos{
+        width: 100%;
+    }
+}
+
+

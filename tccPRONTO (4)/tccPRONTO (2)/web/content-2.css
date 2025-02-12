@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Koh+Santepheap:wght@100;300;400;700;900&family=Konkhmer+Sleokchher&family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+h3{
+font-size: 70px;
+color:white;
+margin-left: 35px;
+margin-top: 29px;
+}
+.content-2 p{
+    color:white;
+    font-size: 50px;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-family: 'Kumbh Sans';
+}
+
+/*celular redonod0*/
+@media (max-width: 375px) and (min-width:360px)  {
+    h3 { 
+    margin-top: -382px;
+    font-size: 57px;
+    height: auto;
+   }
+   
+   .content-2 p {
+        margin-top: 23px;
+        font-size: 25px;
+        width: 336px;
+        margin-left: 23px;
+   }
+}
+
+@media (max-width: 428px) and (min-width: 390px) {
+     h3 { 
+    margin-top: -382px;
+    font-size: 57px;
+    height: auto;
+   }
+   
+   .content-2 p {
+        margin-top: 23px;
+        font-size: 25px;
+        width: 336px;
+        margin-left: 23px;
+   }
+}
+
+/* tablet*/
+@media (max-width: 834px) and (min-width: 820px){
+     h3 { 
+           margin-top: 377px;
+        font-size: 83px;
+        height: auto;
+   }
+   
+   .content-2 p {
+        margin-top: 47px;
+        font-size: 44px;
+        width: 930px;
+        margin-left: 23px;
+   }
+}

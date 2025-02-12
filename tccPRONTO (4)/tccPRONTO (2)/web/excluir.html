@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir</title>
+    <link rel="stylesheet" href="excluir.css">
+</head>
+<body>
+    <form method="post" action="excluir.jsp">
+        <div class="tela">
+            <a class="voltar" href="adm.jsp">Voltar</a>
+            <h1>Tem certeza que deseja excluir?</h1>
+            <label for="id">Código a ser excluído</label>
+            <input id="id" type="number" name="id" required>
+            <input type="submit" value="Excluir" onclick="return confirmarExclusao()">
+        </div>
+    </form>
+
+    <script>
+        function confirmarExclusao() {
+            return confirm("Tem certeza que deseja excluir?");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,692 @@
+h1 {
+   font-size: 5em;
+   margin-top: 5%;
+   margin-left: 5%;
+}
+
+.ponto{
+    color: #D5B98C;
+    background-color: #D5B98C;
+    width: 13%;
+    height: 6px;
+    margin-left: 6.5%;
+    border-radius: 30px;
+}
+
+.local {
+  margin-left: 2%;
+  margin-top: 5%;
+  width: 70px;
+  height: 70px;
+}
+
+.endereco {
+    font-size: 1.5em;
+    margin-left: 7%;
+    margin-top: -66px;
+}
+
+.numero{
+    margin-bottom: -7.9%;
+    margin-left: -10.5%;
+    width: 70px;
+    height: 70px;
+}
+
+.telefone{
+    margin-left: 8%;
+    margin-top: 89px;
+    font-size: 1.8em;
+}
+
+.celular{
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 70px;
+    height: 70px;
+}
+
+.whats{
+    margin-top: -60px;
+    font-size: 1.8em;
+    margin-left: 8%;
+}
+
+.email{
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 70px;
+    height: 70px;
+}
+
+.mensagem{
+    margin-top: -60px;
+    font-size: 1.8em;
+    margin-left: 8%;
+}
+
+iframe{
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 200px;
+    height: 200px;
+}
+
+.horas{
+    font-size: 5em;
+    margin-top: -5.7%;
+    margin-left: 60%;
+}
+.ponto-2{
+color: #D5B98C;
+background-color: #D5B98C;
+width: 13%;
+height: 6px;
+margin-left: 61.5%;
+border-radius: 30px;
+margin-top: -800px;
+}
+
+.descricao{
+margin-left: 58%;
+margin-top: 5%;
+font-size: 2em;
+}
+
+.redes{
+    margin-left: 70%;
+    margin-top: 20%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.insta{
+    margin-left: 76%;
+    width: 70px;
+    height: 70px;
+}
+.face{
+    width: 70px;
+    height: 70px;
+}
+
+ .insta:hover, .face:hover {
+        opacity: 0.2; 
+    }
+    
+   @media only screen and (max-width: 375px) and (min-width: 360px) {   
+        #container-3 {    
+            height: 712px; 
+            max-height: 819px !important;
+
+   }
+        h1 {
+            font-size: 28px;
+            margin-top: 136px;
+            margin-left: 5%;
+         }
+        
+      .ponto {
+            color: #D5B98C;
+            background-color: #D5B98C;
+            width: 21%;
+            height: 5px;
+            margin-left: 9%;
+            border-radius: 17px;
+            transform: translateY(8px);
+         }
+            
+        .local {
+          margin-left: 15%;
+          margin-top: 7%;
+          width: 50px;
+          height: 70px;
+}
+
+
+        .endereco {
+          font-size: 15px;
+          margin-left: 6%;
+          margin-top: 7px;
+          width: 195px;
+}
+        
+          .numero{
+            margin-bottom: -21%;
+            margin-left: -49%;
+            height: 30px;
+              
+          }
+          
+          .telefone{
+            margin-left: 20%;
+            margin-top: 45.5px;
+            font-size: 18px;
+          }
+          
+          .celular{
+              margin-left: 2.1%;
+              margin-top: 10%;
+              width: 70px;
+              height: 30px;
+          }
+          
+          .whats{
+              margin-top: -25px;
+              margin-left: 20%;
+             font-size: 1em;
+              
+          }
+          
+          .email{
+              margin-left: 2.1%;
+              margin-top: 10%;
+              height: 30px;
+          }
+          
+          .mensagem{
+              margin-top: -28px;
+              font-size: 14px;
+              margin-left: 20%;
+              font-weight:bold ;
+          }
+          
+          iframe{
+              margin-left: 7%;
+              margin-top: 13%;
+              width: 160px;
+              height: 152px;
+          }
+          
+          .horas{
+                font-size: 26px;
+                margin-top: -12.2%;
+                margin-left: 67%;
+           }
+          .ponto-2{
+          background-color: #D5B98C;  
+          width: 21%;
+          height: 6px;
+          margin-left: 72%;
+          border-radius: 30px;
+          margin-top: -667px;
+          }
+          
+          .descricao{
+          margin-left: 64.5%;
+          margin-top:20%;
+          font-size: 14px;
+          }
+          
+          .redes{
+              margin-left: 64%;
+              margin-top: 21%;
+              font-size: 13px;
+              font-weight: bold;
+          }
+          
+          .insta{
+           height: 29px;
+           margin-top: 16px;
+           margin-left: 236px;
+    
+          } .face {
+              margin-left: 76%;
+              margin-top: -9%;
+              width: 70px;
+              height: 30px;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+             
+        }
+              
+          }
+          @media (max-width: 428px) and (min-width:390px){
+              #container-3 {    
+            height: 712px; 
+            max-height: 819px !important;
+
+   }
+        h1 {
+            font-size: 28px;
+            margin-top: 136px;
+            margin-left: 5%;
+         }
+        
+      .ponto {
+            color: #D5B98C;
+            background-color: #D5B98C;
+            width: 21%;
+            height: 5px;
+            margin-left: 9%;
+            border-radius: 17px;
+            transform: translateY(8px);
+         }
+            
+        .local {
+          margin-left: 15%;
+          margin-top: 7%;
+          width: 50px;
+          height: 70px;
+}
+
+
+        .endereco {
+          font-size: 15px;
+          margin-left: 6%;
+          margin-top: 7px;
+          width: 195px;
+}
+        
+          .numero{
+            margin-bottom: -21%;
+            margin-left: -49%;
+            height: 30px;
+              
+          }
+          
+          .telefone{
+            margin-left: 20%;
+            margin-top: 45.5px;
+            font-size: 18px;
+          }
+          
+          .celular{
+              margin-left: 2.1%;
+              margin-top: 10%;
+              width: 70px;
+              height: 30px;
+          }
+          
+          .whats{
+              margin-top: -25px;
+              margin-left: 20%;
+             font-size: 1em;
+              
+          }
+          
+          .email{
+              margin-left: 2.1%;
+              margin-top: 10%;
+              height: 30px;
+          }
+          
+          .mensagem{
+              margin-top: -28px;
+              font-size: 14px;
+              margin-left: 20%;
+              font-weight:bold ;
+          }
+          
+          iframe{
+              margin-left: 7%;
+              margin-top: 13%;
+              width: 160px;
+              height: 152px;
+          }
+          
+          .horas{
+                font-size: 26px;
+                margin-top: -12.2%;
+                margin-left: 67%;
+           }
+          .ponto-2{
+          background-color: #D5B98C;  
+          width: 21%;
+          height: 6px;
+          margin-left: 72%;
+          border-radius: 30px;
+          margin-top: -667px;
+          }
+          
+          .descricao{
+          margin-left: 64.5%;
+          margin-top:20%;
+          font-size: 14px;
+          }
+          
+          .redes{
+              margin-left: 64%;
+              margin-top: 21%;
+              font-size: 13px;
+              font-weight: bold;
+          }
+          
+          .insta{
+           height: 29px;
+           margin-top: 16px;
+           margin-left: 236px;
+    
+          } .face {
+              margin-left: 76%;
+              margin-top: -9%;
+              width: 70px;
+              height: 30px;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+        }
+              }
+              
+              /* tablet*/
+      @media (max-width: 834px) and (min-width: 820px){
+         #container-3 {    
+                    height: 1229px;
+                     margin-top: 75px;
+    }
+
+   
+        h1 {
+                font-size: 52px;
+                margin-top: 136px;
+                margin-left: 5%
+         }  
+        
+      .ponto {
+               color: #D5B98C;
+                background-color: #D5B98C;
+                width: 14%;
+                height: 5px;
+                margin-left: 8%;
+                border-radius: 17px;
+                transform: translateY(8px);
+         }
+            
+        .local {
+                 margin-left: 4%;
+        margin-top: 16%;
+        width: 91px;
+        height: 70px;
+}
+
+
+        .endereco {
+        font-size: 28px;
+        margin-left: 15%;
+        margin-top: -107px;
+        width: 385px;
+}
+        
+          .numero{
+           margin-bottom: -13%;
+           margin-left: -26%;
+          height: 43px;
+              
+          }
+          
+          .telefone{
+            margin-left: 11%;
+        margin-top: 88.5px;
+        font-size: 30px;
+          }
+          
+          .celular{
+              margin-left: 2.1%;
+            margin-top: 10%;
+            width: 70px;
+            height: 52px;
+          }
+          
+          .whats{
+              margin-top: -48px;
+        margin-left: 11%;
+        font-size: 31px;
+    
+              
+          }
+          
+          .email{
+              margin-left: 2.1%;
+                margin-top: 10%;
+                height: 59px; 
+                 }
+          
+          .mensagem{
+              margin-top: -51px;
+        font-size: 29px;
+        margin-left: 11%;
+        font-weight: bold;
+          }
+          
+          iframe{
+              margin-left: 4%;
+        margin-top: 9%;
+        width: 242px;
+        height: 247px;
+    }
+          
+          
+          .horas{
+            font-size: 48px;
+            margin-top: -7.2%;
+            margin-left: 72%;
+           }
+          .ponto-2{
+          background-color: #D5B98C;
+        width: 14%;
+        height: 6px;
+       margin-left: 74%;
+        border-radius: 30px;
+        margin-top: -1165px;
+          }
+          
+          .descricao{
+          margin-left: 64.5%;
+        margin-top: 12.5%;
+        font-size: 24px;
+          }
+          
+          .redes{
+                margin-left: 62%;
+                margin-top: 20%;
+                font-size: 22px;
+                font-weight: bold;
+          }
+          .insta {
+          height: 42px;
+        margin-top: 33px;
+        margin-left: 739px;
+    
+          } 
+          .face {
+        margin-left: 81%;
+        margin-top: -48px;
+        width: 70px;
+        height: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        }
+ 
+                                        
+     }
+                
+    @media (min-width:884px) and (max-width:1104px){
+                        h1 {
+                            font-size: 2em;
+                            margin-top: 3%;
+                            margin-left: 5%;
+                         }
+                         .ponto{
+                            width: 50px;
+                          
+                         }
+                         .local {
+                            margin-left: 4%;
+                            margin-top: 2%;
+                          width: 50px;
+                         height: 80px;
+                          }
+                          
+                          .endereco {
+                              font-size: 1.3em;
+                              margin-left: 13%;
+                              margin-top: -9%;
+                          }
+                        
+                          .numero{
+                           margin-top:-60%;
+                           margin-left: -50%;
+                           width: 90px;
+                           height: 100px;
+                           
+                              
+                          }
+                          
+                          .telefone{
+                              margin-left: 12%;
+                              margin-top: 1%;
+                              font-size: 1.4em;
+                          }
+                          
+                          .celular{
+                              margin-left: 4%;
+                              margin-top: 2%;
+                              width: 50px;
+                              height: 80px;
+                          }
+                          
+                          .whats{
+                             margin-top: -7.8%;
+                              margin-left: 12%;
+                             font-size: 1.4em;
+                              
+                          }
+                          
+                          .email{
+                              margin-left: 4%;
+                              margin-top: 2%;
+                              width: 50px;
+                              height: 80px;
+                          }
+                          
+                          .mensagem{
+                              margin-top: -60px;
+                              font-size: 1.3em;
+                              margin-left: 12%;
+                              font-weight:bold ;
+                          }
+                          
+                          iframe{
+                              margin-left: 5%;
+                              margin-top: 3%;
+                              width: 400px;
+                              height: 200px;
+                          }
+                          
+                          .horas{
+                              font-size: 2em;
+                              margin-top: -5%;
+                              margin-left: 75%;
+                          }
+                          .ponto-2{
+                          background-color: #D5B98C;  
+                          width: 12%;
+                          height: 6px;
+                          margin-left: 75%;
+                          border-radius: 30px;
+                          margin-top: -466px;
+                          }
+                          .ponto{
+                            color: #D5B98C;
+                            background-color: #D5B98C;
+                            width: 12%;
+                            height: 6px;
+                            margin-left: 5%;
+                            border-radius: 30px;
+                       
+                        }
+                          
+                         .descricao {
+                            position: absolute;
+                            top: 11.5%;
+                            left: 68.5%;
+                            font-size: 3em;
+                          }
+                          
+                          .redes{
+                              margin-left: 70%;
+                              margin-top: 15%;
+                              font-size: 1.3em;
+                              font-weight: bold;
+                          }
+                          
+                          .insta{
+                            width: 50px;
+                            height: 80px;
+                           margin-top: 10px;
+                    
+                          } 
+                          .face {
+                              margin-left: 76%;
+                              margin-top: -2%;
+                              width: 50px;
+                              height: 80px;
+                             
+                        }
+                      }
+                      
+ /* Tela notebook (1024x768) */
+ @media (min-width: 1266px) {
+     .numero {
+         margin-left: -14%;
+        transform: translateY(32px);
+     }
+     .horas {
+         margin-top: -7%;
+        margin-left: 70%;
+    }
+     
+     
+     .ponto-2 {
+         margin-top: -733px;
+        margin-left: 74%;
+     }
+     
+     .descricao {
+         margin-left: 65%;
+     }
+     
+ }
+ 
+  /*Computador*/
+  @media (min-width: 1400px) {
+      .numero {
+         margin-left: -200px;
+        transform: translateY(2px);
+      }
+      
+      .ponto-2 {
+         margin-top: -800px;
+        margin-left: 74%;
+     }
+     
+      .horas {
+         margin-top: -100px;
+        margin-left: 72%;
+    }
+  }
+  
+ @media screen and (min-width: 1200px) and (max-width: 1500px) { 
+     .numero {
+         margin-left: -203px;
+         margin-bottom: -9%;
+     }
+  }
+  
+      
+                
+               
+
+            
+
+
+
+
+
+                    
+              
+          
+
+        

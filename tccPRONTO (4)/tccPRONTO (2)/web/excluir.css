@@ -1,0 +1,82 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Caixa de confirmação */
+.confirmation-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mensagens dentro da caixa de confirmação */
+.message {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo dos botões */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Botão de confirmação (Sim) */
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Botão de cancelar (Não) */
+.cancel-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #e53935;
+}
+
+/* Botão de voltar */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Botão de confirmar (Sim) */
+button:active {
+    background-color: #3e8e41;
+}
